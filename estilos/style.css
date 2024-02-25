@@ -2,8 +2,55 @@
 
 /* Paleta de cores
 Amarelo Primário: #FFD700 (amarelo puro)
-Amarelo Suave: #FFEB3B (um tom mais suave de amarelo)
-Amarelo Escuro: #FFC107 (um tom mais escuro de amarelo, ideal para botões ou destaques)
-Amarelo Claro: #FFF9C4 (um tom claro e suave de amarelo para fundos)
-Branco: #FFFFFF (para o fundo principal ou texto em contraste)
+Azul Celeste: #87CEEB (um azul suave e claro)
+Verde Lima: #ADFF2F (um verde vibrante e vivo)
+Azul Marinho: #1E90FF (um azul profundo e escuro)
+Verde Água: #7FFFD4 (um verde claro e refrescante)
 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,
+html {
+    background-color: #d4b400;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 350px;
+    height: 650px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.437);
+}
+
+section#login>div#imagem {
+    display: block;
+    background: #d4b400 url(../imagens/flor-amarela-sozinha.jpg) no-repeat;
+    background-size: cover;
+    background-position: right center;
+    height: 200px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
