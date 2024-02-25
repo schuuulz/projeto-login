@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    html {
+        background-image: linear-gradient(0deg, #74ae1d, #fff200 55%, #0095d0);
+    }
+    body {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    section#login {
+        width: 90vw;
+    }
+
+    section#login>div#imagem {
+        background: rgba(0, 0, 0, 0) url(../imagens/predio-amarelo.jpg) no-repeat;
+        float: right;
+        background-size: cover;
+        width: 40%;
+        height: 100%;
+    }
+
+    section#login>div#formulario {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    html {
+        background-image: linear-gradient(0deg, #74ae1d, #fff200 55%, #0095d0);
+    }
+    
+    body {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    section#login {
+        width: 950px;
+    }
+
+    section#login>div#imagem {
+        background: rgba(0, 0, 0, 0) url(../imagens/flor-amarela.jpg) no-repeat;
+        background-size: cover;
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login>div#formulario {
+        width: 50%;
+    }
+
+}

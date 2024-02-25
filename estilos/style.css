@@ -15,9 +15,12 @@ Verde Água: #7FFFD4 (um verde claro e refrescante)
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body,
 html {
-    background-color: #d4b400;
+    background-image: linear-gradient(0deg, #74ae1d 60%, #fff200);
+}
+
+body {
+    background-color: #000000a3;
     height: 100vh;
     width: 100vw;
 }
@@ -40,17 +43,21 @@ section#login {
     height: 650px;
     border-radius: 20px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.437);
+
+
+    transition: width .3s, height .1s;
+    transition-timing-function: ease;
 }
 
 section#login>div#imagem {
     display: block;
-    background: #d4b400 url(../imagens/flor-amarela-sozinha.jpg) no-repeat;
+    background: #00000000 url(../imagens/flor-amarela.jpeg) no-repeat;
     background-size: cover;
     background-position: right center;
     height: 200px;
 }
 
-section#login > div#formulario {
+section#login>div#formulario {
     display: block;
     padding: 10px;
 }
