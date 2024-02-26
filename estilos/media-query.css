@@ -7,21 +7,36 @@
     }
 
     section#login {
-        width: 81vw;
+        width: 90vw;
+
     }
 
     section#login>div#imagem {
         background: rgba(0, 0, 0, 0) url(../imagens/predio-amarelo.jpg) no-repeat;
         float: left;
         background-size: cover;
-        width: 45%;
+        width: 40%;
         height: 100%;
+    }
+
+    section#login>div#formulario {
+        width: 60%;
+        float: right;
     }
 
     div#formulario>h1 {
         font-size: 2em;
 
     }
+
+    form {
+        width: 80%;
+        margin: auto;
+    }
+
+
+
+
 
 
 }
@@ -45,16 +60,27 @@
         background: rgba(0, 0, 0, 0) url(../imagens/flor-amarela.jpg) no-repeat;
         background-size: cover;
         float: right;
-        width: 50%;
+        width: 45%;
         height: 100%;
     }
 
     section#login>div#formulario {
-        width: 90%;
+        width: 55%;
+        float: left;
     }
 
     div#formulario>h1 {
         font-size: 2em;
 
     }
+
+    form {
+        width: 86%;
+        margin: auto;
+    }
+
+
+
+
+
 }
