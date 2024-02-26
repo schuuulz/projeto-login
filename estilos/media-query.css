@@ -6,8 +6,10 @@
         background-image: linear-gradient(0deg, #74ae1d, #fff200, #0095d0);
     }
 
+
     section#login {
         width: 90vw;
+        height: 90vh;
         top: 50%;
     }
 
@@ -20,7 +22,7 @@
     }
 
     section#login>div#formulario {
-        margin-top: 15%;
+        margin-top: 150px;
         width: 60%;
         float: right;
     }
@@ -33,8 +35,12 @@
     form {
         width: 80%;
         margin: auto;
+        margin-top: 50px;
     }
 
+    form>div.campo {
+        margin: 12px 0px;
+    }
 
 
 
@@ -80,9 +86,12 @@
     form {
         width: 86%;
         margin: auto;
+        margin-top: 50px;
     }
 
-
+    form>div.campo {
+        margin: 12px 0px;
+    }
 
 
 
