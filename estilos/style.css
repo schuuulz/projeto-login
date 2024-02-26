@@ -33,18 +33,18 @@ main {
 
 section#login {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
-
+    
     background-color: white;
     width: 280px;
     height: 530px;
     border-radius: 20px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.437);
-
-
+    
+    
+    transform: translate(-50%, -50%);
     transition: width .3s, height .1s;
     transition-timing-function: ease;
 }
