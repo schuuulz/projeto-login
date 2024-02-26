@@ -1,6 +1,6 @@
 ## Projeto de Login
  Projeto tela de login somente usando HTML+CSS
-
+Foquei em praticar e aprimorar meus conhecimentos em HTML5 e CSS3 para telas de celulares/tablets e computadores. O foco foi em melhorar e treinar a responsividade de um site.
 
 - Videos do Projeto
   
