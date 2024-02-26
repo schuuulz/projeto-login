@@ -20,6 +20,7 @@
     }
 
     section#login>div#formulario {
+        margin-top: 15%;
         width: 60%;
         float: right;
     }
@@ -66,6 +67,7 @@
     }
 
     section#login>div#formulario {
+        margin-top: 12%;
         width: 55%;
         float: left;
     }
